@@ -204,3 +204,18 @@ print(m)
 print 'done'
 
 
+#------------------------------------------------------------------#
+
+#. A function is a statement(s) that performs an operation. It can be named anything.
+#. All functions have the same format. They all begin with the word def, followed by the name of the function and any parameters the function will need when it is executed. 
+
+def remainder(a):	#This function will need to know and use the variable a, so a goes in parentheses. Don't forget the colon after the parentheses.
+	if a%5==0:	#The first line after a function must be indented, typically by four spaces. This function is testing "if" something is true, then returning a result based on if it's true or not.
+		print("No remainder")
+
+remainder(20)	#There is one more step. For your function to be executed, you have to call it. Just write the name of the function and the parameter in parentheses without indentation. 
+		#Notice how you can run specify what number you want to run through the function, the letter "a" takes on the number 20. 
+
+
+
+
